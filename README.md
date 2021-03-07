@@ -1,6 +1,6 @@
 # pcap2yuv
 Tool to generate YUV file from pcap file containing RTP packets carrying video encoded in H.264-SVC.<br>
-Requires [libopensvc](https://sourceforge.net/projects/opensvcdecoder/) and [scapy](https://github.com/secdev/scapy).<br>
+Requires [libopensvc](https://sourceforge.net/projects/opensvcdecoder/) in LD_LIBRARY_PATH and [scapy](https://github.com/secdev/scapy).<br>
 ```
 Usage:  ./pcap2yuv.py  <pcap file> <src IP filter> <SSRC filter> [out yuv file] [out pacsi file] [out NAL file]
      <pcap file>      : pcap file name
