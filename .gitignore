@@ -1,0 +1,7 @@
+*.pyc
+raw
+pcap
+myenv
+nal.txt
+.project
+.pydevproject
